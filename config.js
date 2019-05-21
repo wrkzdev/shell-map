@@ -2,11 +2,11 @@
 
 const config = {};
 
-config.networkNodeListJSONurl = 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json';
+config.networkNodeListJSONurl = 'https://raw.githubusercontent.com/wrkzcoin/wrkzcoin-nodes-json/master/wrkzcoin-nodes.json';
 
-config.serverHost = '0.0.0.0';
+config.serverHost = '127.0.0.1';
 
-config.serverPort = 8080;
+config.serverPort = 1080;
 
 config.networkNodeTimeout = 10;
 
@@ -14,7 +14,7 @@ config.statsUpdateInterval = 15;
 
 config.nodeTTL = 3600;
 
-config.rpcPort = 11898;
+config.rpcPort = 17856;
 
 config.queueReseedDelay = 60;
 
